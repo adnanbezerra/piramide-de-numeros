@@ -9,7 +9,7 @@ public class App {
 
         for (int i = 0; i <= tamanho; i++) {
             StringBuilder linha = new StringBuilder();
-            for(int j = 0; j < i; j++) {
+            for (int j = 0; j < i; j++) {
                 linha.append(i);
             }
             System.out.println(linha);
